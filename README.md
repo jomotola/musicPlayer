@@ -8,7 +8,7 @@ A music player web application with a vibrant pink theme. Built with JavaScript,
 - **Previous/Next** - Navigate through your playlist seamlessly
 - **Progress Bar** - Visual progress indicator with click-to-seek functionality
 - **Time Display** - Real-time current time and total duration display
-- **Repeat Modes** - Cycle through three modes: off → all → one
+- **Repeat Modes** - Cycle through two modes: off → on
 - **Volume Control** - Adjustable volume slider (0-100%)
 
 ### Playlist Management
@@ -65,13 +65,7 @@ Potential features for future versions:
 - 🎵 Search and filter functionality
 - ⭐ Favorite/Like songs feature
 - 💾 Adding your own music
-- 📊 Audio visualizer/spectrum display
-- 🌙 Dark/Light theme toggle
 - 📖 Lyrics display
-
-
-## 📄 License
-This project is open source and available for personal and educational use.
 
 ## 👤 Credits
 Created as a modern music player showcase. Special thanks to:
