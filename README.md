@@ -32,7 +32,7 @@ A simple music player web app with a pink theme, built using HTML, CSS, and Java
 - CSS  
 - JavaScript  
 - SVG Icons  
-
+- FreeCodeCamp Base project (https://www.freecodecamp.org/learn/javascript-v9/#workshop-music-player)
 ---
 
 ## 🎯 How to Use
