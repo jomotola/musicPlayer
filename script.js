@@ -17,11 +17,11 @@ const repeatButton = document.getElementById("repeat");
 const allSongs = [
     {
         id: 0,
-        title: "Alligator Tears",
+        title: "7/11",
         artist: "Beyoncé",
-        duration: "3:00",
-        src: "songs/Alligator Tears.mp3",
-        cover: "images/cowboyCarter.jpg"
+        duration: "3:34",
+        src: "songs/01 - 7_11.mp3",
+        cover: "images/selftitled.jpg"
     },
     {
         id: 1,
