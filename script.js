@@ -110,7 +110,7 @@ let userData = {
   songs: [...allSongs],
   currentSong: null,
   songCurrentTime: 0,
-  repeatMode: "off", // "off", "all", "one"
+  repeatMode: "off",
 };
 
 const playSong = (id) => {
@@ -176,11 +176,8 @@ const updateProgressDisplay = () => {
 
 const handleRepeatMode = () => {
   if (userData.repeatMode === "off") {
-    userData.repeatMode = "all";
-    repeatButton.classList.add("active");
-    repeatButton.setAttribute("aria-label", "Repeat all");
-  } else if (userData.repeatMode === "all") {
     userData.repeatMode = "one";
+    repeatButton.classList.add("active");
     repeatButton.classList.add("repeat-one");
     repeatButton.setAttribute("aria-label", "Repeat one");
   } else {
