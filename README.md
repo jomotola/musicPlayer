@@ -1,79 +1,83 @@
 # 🎵 Tola Music Player
 
-A music player web application with a vibrant pink theme. Built with JavaScript, HTML, and CSS.
-## ✨ Features
-
-### Playback Controls
-- **Play/Pause** - Toggle audio playback with intuitive button controls
-- **Previous/Next** - Navigate through your playlist seamlessly
-- **Progress Bar** - Visual progress indicator with click-to-seek functionality
-- **Time Display** - Real-time current time and total duration display
-- **Repeat Modes** - Cycle through two modes: off → on
-- **Volume Control** - Adjustable volume slider (0-100%)
-
-### Playlist Management
-- **Dynamic Playlist** - Display all songs with title, artist, and duration
-- **Song Sorting** - Sort by:
-  - Song Title (A–Z)
-  - Artist (A–Z)
-  - Duration (Shortest → Longest)
-  - Random shuffle
-- **Delete Songs** - Remove songs from the playlist individually
-- **Current Track Highlighting** - Visual indicator of the now-playing song
-
-## 💻 Coding Languages Used
-
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **SVG Icons**
-
-## 🎯 How to Use
-
-### Basic Playback
-1. Click the **play button** to start playing
-2. Use **previous/next buttons** to navigate songs
-3. Click **pause button** to pause playback
-
-### Managing Playback
-- **Seek**: Click anywhere on the progress bar to jump to that time
-- **Volume**: Drag the volume slider left/right to adjust volume
-- **Repeat**: Click the repeat button to cycle through repeat modes:
-  - 🔄 Off - Play through once
-  - 🔄 One - Repeat current song
-
-### Sorting & Organizing
-1. Click the **shuffle button** to open sort menu
-2. Select a sorting option:
-   - Song Title (A–Z)
-   - Artist (A–Z)
-   - Duration
-   - Random
-
-### Removing Songs
-- Click the **trash icon** on any song to remove it from the playlist
-- A "Reset Playlist" button appears when all songs are deleted
-
-### Current Song Info
-- **Album Art** - Displays in the left player area
-- **Title & Artist** - Shows in the center display
-- **Highlighted in Playlist** - Current song is highlighted in the list
-
-## 🚀 Future Enhancements
-
-Potential features for future versions:
-- 🎵 Search and filter functionality
-- ⭐ Favorite/Like songs feature
-- 💾 Adding your own music
-- 📖 Lyrics display
-
-## 👤 Credits
-Created as a modern music player showcase. Special thanks to:
-- Song artists and album cover creators
-- Open source community for inspiration
-- Web standards (HTML5, CSS3, JavaScript ES6+)
-- FreeCodeCamp (base project)
+A simple music player web app with a pink theme, built using HTML, CSS, and JavaScript.
 
 ---
 
-**Enjoy the music! 🎶**
+## ✨ Features
+
+- Play and pause music with easy-to-use controls  
+- Skip to the previous or next track  
+- Progress bar with click-to-seek functionality  
+- Displays current time and total duration  
+- Repeat mode (off or repeat one track)  
+- Adjustable volume (0–100)  
+
+### 🎶 Playlist Features
+
+- View all songs with title, artist, and duration  
+- Sort songs by:
+  - Title (A–Z)  
+  - Artist (A–Z)  
+  - Duration (shortest to longest)  
+  - Shuffle (random order)  
+- Remove songs individually  
+- Highlighted current track  
+
+---
+
+## 💻 Built With
+
+- HTML  
+- CSS  
+- JavaScript  
+- SVG Icons  
+- FreeCodeCamp Base project (https://www.freecodecamp.org/learn/javascript-v9/#workshop-music-player)
+---
+
+## 🎯 How to Use
+
+### ▶️ Playing Music
+1. Click the **play** button to start a song  
+2. Use **next/previous** buttons to change tracks  
+3. Click **pause** to stop playback  
+
+### 🎛 Controls
+- Click the progress bar to jump to a specific time  
+- Drag the volume slider to adjust sound  
+- Toggle repeat:
+  - Off (plays once)  
+  - Repeat (loops current track)  
+
+### 🔀 Sorting Songs
+1. Click the shuffle/sort button  
+2. Select how you want to organize the playlist  
+
+### 🗑 Removing Songs
+- Click the trash icon next to a song to delete it  
+- If all songs are removed, a reset option will appear  
+
+### 🎧 Now Playing
+- Album art displays on the left  
+- Song title and artist show in the center  
+- Current track is highlighted in the playlist  
+
+---
+
+## 🚀 Future Improvements
+
+- Search and filter songs  
+- Favorite/like feature  
+- Upload your own music  
+- Lyrics display  
+
+---
+
+## 👤 Credits
+
+Created as a music player project.  
+Thanks to song artists, album cover creators, and FreeCodeCamp for inspiration.
+
+---
+
+**Enjoy the music 🎶**
