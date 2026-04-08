@@ -1,3 +1,4 @@
+/* css variables - custom properties for theming */
 :root {
     /* colors — pink theme */
     --primary-color: #ffebf7;
@@ -23,6 +24,7 @@
 }
 
 
+/* RESET - Global reset and base styles */
 *,
 *::after,
 *::before {
@@ -38,6 +40,7 @@
 }
 
 
+/* LAYOUT - Main page structure and typography */
 body {
     background-color: var(--app-background-color);
     color: var(--primary-color);
@@ -66,6 +69,7 @@ ul {
     row-gap: 5px;
 }
 
+/* COMPONENTS - Player and playlist sections */
 .player,
 .playlist {
     width: 450px;
@@ -151,6 +155,7 @@ ul {
     width: 226px;
 }
 
+/* PROGRESS BAR - Song progress and time display */
 .progress-container {
     display: flex;
     align-items: center;
@@ -220,6 +225,7 @@ ul {
     gap: 5px;
 }
 
+/* VOLUME CONTROL - Volume slider and icon */
 .volume-container {
     display: flex;
     align-items: center;
@@ -515,6 +521,7 @@ button:focus,
     fill: #ff0000;
 }
 
+/* RESPONSIVE DESIGN - Mobile and tablet styles */
 @media (max-width: 700px) {
 
     .player,
